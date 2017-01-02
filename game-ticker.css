@@ -1,0 +1,71 @@
+.game-ticker-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  height: 8.5rem;
+  padding: 0.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.game-ticker-container .open-div {
+  color: #2980b9
+}
+
+.game-ticker-container .women-div {
+  color: #f1c40f
+}
+
+.game-ticker-container .mixed-div {
+  color: #27ae60
+}
+
+.game-ticker-container .games {
+  margin-top: 4px;
+}
+
+.game-ticker-container .games .game {
+  border: 1px solid #999;
+  width: 200px;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.game-ticker-container .games .game:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+.game-ticker-container .games .game .name,
+.game-ticker-container .games .game .score {
+  display: inline-block;
+}
+
+.game-ticker-container .games .game .name {
+  margin-left: 3px;
+  width: 145px;
+}
+
+.game-ticker-container .games .game .score {
+  width: 42px;
+  text-align: right;
+}
+
+.game-ticker-container .games .game .info {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.game-ticker-container .games .game .info .left {
+  width: 100px;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.game-ticker-container .games .game .info .right {
+  width: 90px;
+  display: inline-block;
+  text-align: right;
+}
